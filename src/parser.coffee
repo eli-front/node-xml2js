@@ -1,7 +1,7 @@
 "use strict"
 
 sax = require 'sax'
-events = require 'events'
+events = require('events').EventEmitter
 bom = require './bom'
 processors = require './processors'
 setImmediate = require('timers').setImmediate
